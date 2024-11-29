@@ -20,17 +20,17 @@ I want to "optimize" for the most reliable settings without simply picking the b
 # Optimization
 I began optimization with a visual representation of the effect of strategy parameters on Sharpe Ratios. I did this by coding one-dimensional loops with the other two parameters set to their defaults:
 
-![image](https://github.com/user-attachments/assets/c6b2cf3b-7eeb-4973-9ef2-5d8f370f8bc8)
+![image](https://github.com/user-attachments/assets/f4e7f996-85f5-4aa7-81fd-c1da2dbccd13)
 
-![image](https://github.com/user-attachments/assets/9b0dee04-4d42-4b69-8b44-f5df1892f9cd)
+![image](https://github.com/user-attachments/assets/c4028b2a-0790-4012-a364-720c465246b8)
 
-![image](https://github.com/user-attachments/assets/a1b96787-f3a9-4f51-a27b-ec431b033902)
+![image](https://github.com/user-attachments/assets/969a8c4b-bd4a-41dd-b085-ca0524c25ac5)
 
 The codes for these one-dimensional plots are in "L Opt.py" (Lower Threshold), "U Opt.py" (Upper Threshold), and "LB Opt.py" (Lookback Period).
 
 After confirming that the lookback period was effectively fixed at 3 days, I used Seaborn to generate a heatmap of threshold combinations. The goal was not necessarily to pick the best pair, but instead to observe the "hot" and "cold" areas to see if the edge is consistent in different parameter locations. It certainly looks the way I wanted it to. 
 
-![image](https://github.com/user-attachments/assets/8db05977-9f84-4dc5-b7e5-3b8db811462b)
+![image](https://github.com/user-attachments/assets/f94f1785-352b-4ed6-b4a7-d715384e8159)
 
 The code for this heatmap can be found in "Heatmap.py". Note that this code is CPU-intensive; it took my laptop 20 minutes to run through the 1,800 combinations!
 
@@ -52,13 +52,12 @@ The code for plot generation can be found in "Plots.py". A trade is only when a 
 
 Original strategy parameters: 3-day lookback, lower threshold = 15, upper threshold = 70. N Trades = 381.
 
-![image](https://github.com/user-attachments/assets/46b761de-dd6b-476e-a94c-c01c5d2d88a6)
+![image](https://github.com/user-attachments/assets/45fca4cf-cfec-4498-8d0f-36052272a722)
 
-![image](https://github.com/user-attachments/assets/2b4458c8-4a20-44c0-9b76-f9c0341642f5)
+![image](https://github.com/user-attachments/assets/c078271b-bcd5-47bc-96cf-914ece71f20a)
 
 Optimal strategy parameters: 3-day lookback, lower threshold = 25, upper threshold = 68. N Trades = 464.
 
-![image](https://github.com/user-attachments/assets/bed3031b-cc8f-4b94-9773-872ec51af087)
+![image](https://github.com/user-attachments/assets/82086550-0b73-4ee0-bf69-2e38c66f3a78)
 
-![image](https://github.com/user-attachments/assets/a86bef5d-be3e-4bcc-a9d2-3446395b3b54)
-
+![image](https://github.com/user-attachments/assets/6f2f448b-df9c-4bff-8558-9e274bb0d451)
