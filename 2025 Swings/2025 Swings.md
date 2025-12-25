@@ -3,9 +3,13 @@
 Refer to my [Optimal Sizing study](https://github.com/Omega-CLASPS/Omega-Public/tree/main/Optimal%20Sizing) from 2024 for detailed methodology.
 
 Trades Taken: 17
+
 Final Cumulative Return (Normalized): 31.8%
+
 Maximum Drawdown: -7.2%
+
 Sharpe Ratio: 0.4443
+
 Sortino Ratio: 0.6875
 
 <img width="1605" height="870" alt="image" src="https://github.com/user-attachments/assets/28bd78e4-532a-4b66-ad5f-216fcfa5ab78" />
