@@ -1,6 +1,8 @@
-# 2025 Swing Metrics
+# 2025 Swings
 
 Refer to my [Optimal Sizing study](https://github.com/Omega-CLASPS/Omega-Public/tree/main/Optimal%20Sizing) from 2024 for detailed methodology.
+
+# Core Metrics
 
 Trades Taken: 17
 
@@ -26,4 +28,4 @@ Note that my actual cumulative return for 2025 was 27.9% due to different trade 
 
 <img width="1613" height="872" alt="image" src="https://github.com/user-attachments/assets/91464e9f-7143-4569-9682-1771fabfdd25" />
 
-2025 was a very good year for my swing trading, but I am disappointed in myself for losing interest towards the end of the year. I grew lazy and stopped doing weekly swing analysis or even caring about trading. I will stick with 5% Portfolio sizing for 2026.
+2025 was a very good year for my swing trading, but I am disappointed in myself for losing interest towards the end of the year. I will stick with 5% Portfolio sizing for 2026.
